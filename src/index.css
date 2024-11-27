@@ -11,3 +11,693 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn{
+  width:80px;
+  height:30px;
+  font-size: 15px;
+  font-family: "Baloo Bhai 2", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.188);
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  /* justify-self: right; */
+  ;
+}
+.main-container{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  width: 27vw;
+  height: auto;
+  display: flex;
+  margin:auto auto;
+flex-direction: column;
+  box-shadow: 5px 5px 25px -5px rgba(0, 255, 136, 0.855);
+  border-radius: 12px;
+}
+.main-heading{
+  color: white;
+  font-weight: 400;
+  font-family: 'Baloo Bhai 2', sans-serif;
+  letter-spacing: 0.003em;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px rgb(4, 68, 80);
+  text-align: center;
+}
+.form input{
+  color: white;
+  height: 9%;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  width: 80%;
+  margin: 15px auto;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px;
+}
+.form p{
+  font-size:13px;
+  color:white;
+  font-family: "Poppins", sans-serif;
+  text-shadow:0rem 0.4rem 0.5rem rgba(128, 128, 128, 0.489);
+  font-weight:550;
+  margin:25px 30px;
+}
+.regbtn{
+  color:white;
+  width: 83%;
+  height: 40px;
+  background-color: #61fb9966;
+ border-radius: 12px;
+ font-size: 20px;
+ font-weight: 400;
+  margin: 0px auto;
+ 
+  font-family: 'Baloo Bhai 2', sans-serif;
+  letter-spacing: 0.003em;
+  text-shadow: 5px 5px 5px rgb(4, 68, 80);
+  cursor: pointer;
+ }
+ .login-form{
+  width: 25vw;
+  height: auto;
+  display: flex;
+  margin:auto auto;
+flex-direction: column;
+  box-shadow: 5px 5px 25px -5px rgba(0, 255, 136, 0.855);
+  border-radius: 12px;
+}
+.login-form input{
+  color: white;
+  height: 8%;
+  border: none;
+  background: transparent;
+  font-size: 1em;
+  font-weight: 400;
+  width: 80%;
+  margin: 18px auto;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px;
+}
+.login-form p{
+  font-size:13px;
+  color:white;
+  font-family: "Poppins", sans-serif;
+  text-shadow:0rem 0.4rem 0.5rem rgba(128, 128, 128, 0.489);
+  font-weight:550;
+  margin:25px 30px;
+}
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 390px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card__image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card__details {
+  padding: 16px;
+  text-align: center;
+}
+
+.product-card__name {
+  font-size: 1.2rem;
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.product-card__price {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #007BFF;
+  font-family: "Baloo Bhai 2", serif;
+  margin-top: 8px;
+}
+.product-card__buttons {
+  display: flex;
+  gap: 14px;
+  margin-top: 16px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-card__button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-card__button.buy-now {
+  background-color: #007BFF;
+  color: white;
+  font-family: "Baloo Bhai 2", serif;
+}
+.product-card__button.item-remove {
+  background-color: rgb(203, 25, 25);
+  color: white;
+  font-family: "Baloo Bhai 2", serif;
+}
+
+.product-card__button.add-to-cart {
+  background-color: #28a745;
+  color: white;
+}
+
+.product-card__button:hover {
+  opacity: 0.9;
+}
+
+.notfound-container{
+  width: 100vw;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+.gif-container img{
+  width: 120px;
+  height: 120px;
+}
+.image-container img{
+  width: 280px;
+height: 270px;
+}
+.nodata-head{
+  color:white;
+    
+  /* font-family: "Ubuntu", sans-serif; */
+  
+   font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+   margin-top: -70px;
+    margin-left: 60px;
+    color: orangered;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  /* margin: 0 auto; */
+  border: 2px solid #0000001e;
+  border-radius: 16px;
+  /* overflow: hidden; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+  height: 80vh;
+}
+
+.chat-window {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.325);
+  overflow-y: auto;
+}
+
+.chat-message {
+  max-width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  word-wrap: break-word;
+}
+
+.user-message {
+  gap: 14px;
+  position: relative;
+  background-color: rgb(184, 51, 184);
+  align-self: flex-end;
+  right: -140px;
+  color: white;
+  font-family: "Baloo Bhai 2", serif;
+  font-size: 18px;
+}
+
+.bot-message {
+  background-color: #ffffff95;
+  align-self: flex-start;
+  border: 1px solid #ccc;
+  font-family: "Baloo Bhai 2", serif;
+  font-size: 18px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.btn1{
+  width:90px;
+  height:30px;
+  font-size: 15px;
+  font-family: "Baloo Bhai 2", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.188);
+  border: 1px solid black;
+  margin: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: transparent;
+  color: white;
+}
+
+.chat-input input {
+  background-color: transparent;
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: white;
+  font-family: "Baloo Bhai 2", serif;
+  font-size: 16px;
+}
+
+.chat-input button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", serif;
+  font-size: 16px;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+@media screen and (max-width:1400px) {  
+  .login-form{
+    width: 27vw;
+    /* height: 68vh; */
+    height: auto;
+  }
+  .form{
+    width: 28vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 1em;
+    font-weight: 400;
+    width: 78%;
+    margin: 14px auto;
+  }
+  .form input{
+      height: 7%;
+      font-size: 16px;
+      font-weight: 400;
+      width: 78%;
+      margin: 14px auto;
+  }
+  .regbtn{
+      width: 83%;
+      height: 38px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.28em;
+    letter-spacing: 0.002em;
+   }
+   
+  
+}
+
+
+@media screen and (max-width:1200px) {
+  .login-form{
+    width: 29vw;
+    height: auto;
+  }
+  
+  .form{
+    width:31vw;
+    height: auto;
+  }
+  .login-form input{
+    height: 6.75%;
+    font-size: 15px;
+    font-weight: 400;
+    width: 76%;
+    margin: 14px auto;
+  }
+  .form input{
+    height: 6.75%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 76%;
+    margin: 13px auto;
+  }
+  .regbtn{
+      width: 80%;
+      height: 38px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.28em;
+    letter-spacing: 0.002em;
+   }
+}
+@media screen and (max-width:1050px){
+  .main-container{
+    height: 95vh;
+  }
+  .login-form{
+    width: 40vw;
+    height: auto;
+  }
+  .form{
+    width: 38vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    margin: 14px auto;
+  }
+  .form input{
+    height: 7%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    margin: 12px auto;
+  }
+  .regbtn{
+      width: 82%;
+      height: 37px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.28em;
+    letter-spacing: 0.002em;
+   }
+  
+
+}
+@media screen and (max-width:960px){
+  .main-container{
+    height: 95vh;
+  }
+  
+  .login-form{
+    width: 40vw;
+    height: auto;
+  }
+  .form{
+    width: 40vw;
+  }
+  .login-form input{
+    height: 6.15%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 74%;
+    margin: 13px auto;
+  }
+  .form input{
+    height: 6.15%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 75%;
+    margin: 12px auto;
+  }
+  .regbtn{
+      width: 78%;
+      height: 37px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.20em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:11px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size: 11px;
+   }
+   
+}
+
+
+@media screen and (max-width:800px){
+ 
+  .main-container{
+    height: 90.5vh;
+  }
+  .login-form{
+    width: 41vw;
+    height: auto;
+  }
+  .form {
+    width: 43vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 74%;
+    margin: 13px auto;
+  }
+  .form input{
+    height: 7%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 74%;
+    margin: 11px auto;
+  }
+  .regbtn{
+      width: 80%;
+      height: 37px;
+      font-size: 20px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1.10em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:11px;
+     margin:25px 30px;
+   }
+.form p{
+  font-size:11px;
+}
+
+}
+@media screen and (max-width:660px){
+  .main-container{
+    height: 90.5vh;
+  }
+  .login-form{
+    width: 51vw;
+    height: 56vh;
+  }
+  .form {
+    width: 50vw;
+  }
+  .login-form input{
+    height: 5.80%;
+    font-size: 13px;
+    font-weight: 400;
+    width: 73%;
+    margin: 11px auto;
+  }
+  .form input{
+    height: 5.80%;
+    font-size: 13px;
+    font-weight: 400;
+    width: 73%;
+    margin: 10px auto;
+  }
+  .regbtn{
+      width: 77%;
+      height: 34px;
+      font-size: 18px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:10px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size: 10px;
+   }
+   
+}
+
+
+@media screen and (max-width:500px){
+  .main-container{
+    height: 90.5vh;
+  }
+  
+  .login-form{
+    width: 60vw;
+    height: auto;
+  }
+  .form{
+    width: 60vw;
+  }
+  .login-form input{
+    height: 7%;
+    font-size: 11px;
+    font-weight: 400;
+    width: 72%;
+    margin: 5px auto;
+  }
+  .form input{
+    height: 7%;
+    font-size: 12px;
+    font-weight: 400;
+    width: 72%;
+    margin: 5px auto;
+  }
+  .regbtn{
+      width: 76%;
+      height: 31px;
+      font-size: 16px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 1em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:9.65px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size:9.65px;
+    margin:25px 30px;
+   }
+   
+
+}
+
+@media screen and (max-width:450px){
+  .main-container{
+    height: 90.5vh;
+  }
+  .form {
+    width: 73vw;
+  }
+  .form p{
+    font-size: 9.55px;
+    margin: 25px 30px;
+  }
+ 
+  
+  
+ 
+}
+@media screen and (max-width:376px){
+  .main-container{
+    height: 90.5vh;
+  }
+  .login-form{
+    width: 70vw;
+    height: auto;
+  }
+  .form {
+    width: 79vw;
+  }
+  .login-form input{
+    height: 6%;
+    font-size: 12px;
+    font-weight: 400;
+    width: 71%;
+    margin: 2px auto;
+  }
+  .form input{
+    height: 6%;
+    font-size: 11px;
+    font-weight: 400;
+    width: 71%;
+    margin: 1px auto;
+  }
+  .regbtn{
+      width: 75%;
+      height: 29px;
+      font-size: 15px;
+      font-weight: 500;
+   }
+   .main-heading{
+    font-size: 0.79em;
+    letter-spacing: 0.002em;
+   }
+   .login-form p{
+    font-size:9.54px;
+     margin:25px 30px;
+   }
+   .form p{
+    font-size: 9.54px;
+    margin: 25px 30px;
+   }
+  
+}
